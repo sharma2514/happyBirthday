@@ -32,7 +32,7 @@ body{
     align-items: center;
 }
 .name p span{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .name p{
@@ -89,4 +89,26 @@ body{
 
 .link{
     margin-bottom: 0 px;
+}
+
+.sec_page{
+    margin: 0px;
+    background-color: greenyellow;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.gallary{
+    display: flex;
+    flex-direction: column;
+}
+
+.gallary img{
+    width: 100%;
+    border-radius: 0.5rem;
+    margin: 15px;
 }
