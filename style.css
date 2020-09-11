@@ -1,0 +1,9 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: lightgreen;
+    background-image: url('tenor.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
