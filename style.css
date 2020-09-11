@@ -1,22 +1,36 @@
 body{
-    height: 100vh;
-    width: 100vw;
-    background-color: lightgreen;
-    background-image: url('tenor.gif');
+    margin: 0px;
+    background-color: rgb(243, 237, 237);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back{
+    width: 100%;
+    height: 100%;
+}
+
+.back img{
+    width: 100%;
+    height: 100%;
 }
 
 .name{
     height: 100%;
     width: 100%;
+    position: absolute;
+    top: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 .name p span{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .name p{
@@ -63,4 +77,10 @@ body{
 #sp8{
     color: rgb(33, 165, 241);
     font-weight: bolder;
+}
+
+.hima{
+    background-color: black;
+    border-radius: 1.5rem;
+    padding: 0.5rem;
 }
