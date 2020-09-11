@@ -5,5 +5,62 @@ body{
     background-image: url('tenor.gif');
     background-repeat: no-repeat;
     background-size: cover;
-    
+}
+
+.name{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name p span{
+    font-size: 2rem;
+}
+
+.name p{
+    text-align: center;
+    word-break: keep-all;
+    width: 75%;
+}
+
+#sp1{
+    color: darkgreen;
+    font-weight: bolder;
+}
+
+#sp2{
+    color: magenta;
+    font-weight: bolder;
+}
+
+#sp3{
+    color: rgb(61, 33, 160);
+    font-weight: bolder;
+}
+
+#sp4{
+    color: teal;
+    font-weight: bolder;
+}
+
+#sp5{
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+#sp6{
+    color: rgb(236, 17, 109);
+    font-weight: bolder;
+}
+
+#sp7{
+    color: rgb(243, 102, 8);
+    font-weight: bolder;
+}
+
+#sp8{
+    color: rgb(33, 165, 241);
+    font-weight: bolder;
 }
