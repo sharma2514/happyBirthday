@@ -7,11 +7,13 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
+    width: 100vw;
 }
 
 .back{
     width: 100%;
-    height: 90%;
+    height: 100%;
 }
 
 .back img{
@@ -83,4 +85,8 @@ body{
     background-color: black;
     border-radius: 1.5rem;
     padding: 0.5rem;
+}
+
+.link{
+    margin-bottom: 0 px;
 }
